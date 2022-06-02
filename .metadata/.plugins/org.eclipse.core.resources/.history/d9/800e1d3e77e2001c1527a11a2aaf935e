@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>메인페이지</title>
+</head>
+<body>
+<div>
+<a href="main.jsp">JSP프로젝트</a> <!--좌측 상단 메인페이지 연결-->
+</div>
+<div>
+	<ul>
+		<li>
+		<a href="main.jsp">메인</a> <!--좌측 상단 메인페이지 연결-->
+		</li>
+		<li>
+		<a href="bbs.jsp">게시판</a> <!--좌측 상단 메인페이지 연결-->
+		</li>
+	</ul>
+	
+	<ul>
+		<li>
+			<a href="#" role="buton">접속하기</a> <!--로그인 연결 버튼-->
+			<ul>
+				<li>
+				<a href="login.jsp">로그인</a>
+				</li>
+				<li>
+				<a href="join.jsp">회원가입</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	
+</div>
+</body>
+</html>
