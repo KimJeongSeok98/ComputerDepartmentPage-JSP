@@ -7,9 +7,9 @@ import java.sql.ResultSet;
 
 public class UserDAO {
 
-	private Connection conn;
+	private Connection conn;  // 데이터베이스 접근
 	private PreparedStatement pstmt;
-	private ResultSet rs;
+	private ResultSet rs;  //정보를 담는 객체
 	
 	public UserDAO() {
 		try {
